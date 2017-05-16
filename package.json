@@ -1,0 +1,22 @@
+{
+  "name": "rxjs_playground",
+  "version": "1.0.0",
+  "description": "Boilerplate for building RxJS applications",
+  "main": "app.js",
+  "scripts": {
+    "start": " npm-run-all --parallel build serve",
+    "build": "webpack -w",
+    "serve": "live-server --port=8000"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "live-server": "^1.2.0",
+    "npm-run-all": "^4.0.2",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "rxjs": "^5.4.0"
+  }
+}
